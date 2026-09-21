@@ -1,0 +1,107 @@
+# ==============================================================================
+# .gitignore for Deep Learning Human Activity Recognition (SE4050)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Datasets & Raw Sensor Data (prevent GitHub 100MB file limit errors)
+# ------------------------------------------------------------------------------
+data/
+data/raw/
+dataset/
+datasets/
+HAPT_Data_Set/
+UCI HAR Dataset/
+smartphone+based+recognition/
+RawData/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ------------------------------------------------------------------------------
+# 2. Deep Learning Models, Weights & Checkpoints
+# ------------------------------------------------------------------------------
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+checkpoints/
+model_weights/
+saved_models/
+
+# ------------------------------------------------------------------------------
+# 3. Training Logs & Experiment Tracking
+# ------------------------------------------------------------------------------
+logs/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# ------------------------------------------------------------------------------
+# 4. Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 5. Jupyter Notebooks & Google Colab Artifacts
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.colab/
+
+# ------------------------------------------------------------------------------
+# 6. Operating System Files (macOS & Windows)
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ------------------------------------------------------------------------------
+# 7. IDE & Editor Configs
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 8. Temporary Backup & Utility Scripts
+# ------------------------------------------------------------------------------
+*.bak
+*.tmp
+create_commit_history.sh
