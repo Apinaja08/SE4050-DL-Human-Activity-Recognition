@@ -20,7 +20,7 @@ Our team is benchmarking four deep learning architectures on the exact same data
 
 ### Dataset Details
 - **Dataset:** UCI Smartphone-Based Recognition of Human Activities and Postural Transitions (HAPT)
-- **Google Drive Link:** [Dataset Folder](https://drive.google.com/drive/folders/1sXIvBW0BgkKk4osdxDWJZxNlJh8piuyl?usp=sharing) (Folder ID: `1sXIvBW0BgkKk4osdxDWJZxNlJh8piuyl`)
+- **Google Drive Link:** [Dataset Folder](https://drive.google.com/drive/folders/1WdvCjv_CA7MUxb_KpczbxBfdVW-AQQuj?usp=drive_link) (Folder ID: `1WdvCjv_CA7MUxb_KpczbxBfdVW-AQQuj`)
 - **Key Files:**
   - `Train/X_train.txt`: 561 engineered features for training
   - `Train/y_train.txt`: Activity labels for training (1–12)
