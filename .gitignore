@@ -34,7 +34,10 @@ RawData/
 checkpoints/
 model_weights/
 saved_models/
-models/
+
+# NOTE: models/ itself is intentionally NOT ignored here — the folder
+# structure (models/cnn/, models/lstm/, etc.) is tracked via .gitkeep
+# files. Only the weight-file extensions above are ignored.
 
 # ------------------------------------------------------------------------------
 # 3. Training Logs & Experiment Tracking
@@ -44,8 +47,10 @@ runs/
 wandb/
 tensorboard/
 outputs/
-results/
 *.log
+
+# NOTE: results/ is intentionally NOT ignored — metrics, figures, and
+# confusion matrices are small deliverables that should be committed.
 
 # ------------------------------------------------------------------------------
 # 4. Python & Virtual Environments
