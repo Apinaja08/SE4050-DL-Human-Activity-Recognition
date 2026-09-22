@@ -31,6 +31,7 @@ RawData/
 *.onnx
 *.tflite
 *.pb
+*.pkl
 checkpoints/
 model_weights/
 saved_models/
