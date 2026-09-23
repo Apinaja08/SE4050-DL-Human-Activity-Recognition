@@ -1,0 +1,8 @@
+{
+  "window_size": 128,
+  "stride": 64,
+  "num_classes": 12,
+  "train_samples": 7414,
+  "val_samples": 1578,
+  "test_samples": 1977
+}
