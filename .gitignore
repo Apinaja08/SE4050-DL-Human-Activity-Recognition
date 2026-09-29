@@ -5,8 +5,11 @@
 # ------------------------------------------------------------------------------
 # 1. Datasets & Raw Sensor Data (prevent GitHub 100MB file limit errors)
 # ------------------------------------------------------------------------------
-data/
-data/raw/
+data/**
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 dataset/
 datasets/
 HAPT_Data_Set/
@@ -34,7 +37,8 @@ RawData/
 checkpoints/
 model_weights/
 saved_models/
-models/
+models/**
+!models/.gitkeep
 
 # ------------------------------------------------------------------------------
 # 3. Training Logs & Experiment Tracking
@@ -43,7 +47,8 @@ logs/
 runs/
 wandb/
 tensorboard/
-outputs/
+outputs/**
+!outputs/.gitkeep
 results/
 *.log
 

@@ -1,0 +1,5 @@
+Team members
+============
+Nikshan Pathmaseelan | IT23264434 | GRU (from existing README)
+CNN-LSTM contributor: add your name and student ID.
+Other contributors: add names, student IDs, and model responsibilities.

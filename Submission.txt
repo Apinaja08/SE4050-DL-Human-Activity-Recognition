@@ -1,0 +1,8 @@
+CNN-LSTM submission checklist
+============================
+Notebook: notebooks/SE4050_CNN_LSTM_Human_Activity_Recognition.ipynb
+Reusable code: src/cnn_lstm.py, src/paths.py
+Dependencies and execution: requirements.txt, README.md
+Run the notebook to regenerate outputs before submission.
+Generated export: outputs/cnn_lstm_artifacts.zip
+Complete Members.txt and confirm course submission requirements.
