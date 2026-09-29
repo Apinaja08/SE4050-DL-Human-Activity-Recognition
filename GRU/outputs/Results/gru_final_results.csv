@@ -1,0 +1,38 @@
+Metric,Value
+Model,GRU
+Dataset,UCI HAPT (Smartphone-Based HAR)
+Input Shape,"(128, 6)"
+Number of Classes,12
+Architecture,"GRU(64,ret_seq=True) → Dropout(0.3) → GRU(32) → Dropout(0.3) → Dense(64,relu) → Dropout(0.5) → Softmax(12)"
+Optimizer,Adam
+Learning Rate,0.001
+Batch Size,64
+Max Epochs,50
+Epochs Trained,42
+Best Epoch,32
+Train Subjects,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]"
+Val Subjects,"[22, 23, 24, 25]"
+Test Subjects,"[26, 27, 28, 29, 30]"
+Test Accuracy,0.9398
+Balanced Accuracy,0.8625
+Macro Precision,0.8496
+Macro Recall,0.8625
+Macro F1,0.8531
+Weighted Precision,0.9405
+Weighted Recall,0.9398
+Weighted F1,0.9397
+Macro ROC-AUC,0.9896
+Weighted ROC-AUC,0.9894
+Macro PR-AUC,0.8688
+Weighted PR-AUC,0.9333
+MCC,0.9287
+Cohen's Kappa,0.9285
+Log Loss,0.2106
+Total Parameters,26124
+Trainable Parameters,26124
+Model File Size (MB),0.341
+Total Training Time (s),85.89
+Avg Epoch Time (s),2.04
+Total Inference Time (s),0.5491
+Avg Inference per Sample (ms),0.2777
+SEED,42

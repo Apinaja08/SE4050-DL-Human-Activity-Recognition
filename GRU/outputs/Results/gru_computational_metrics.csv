@@ -1,0 +1,11 @@
+Metric,Value
+Total Training Time (s),90.98
+Epochs Trained,32.0
+Best Epoch,22.0
+Avg Epoch Time (s),2.84
+Total Inference Time (s),0.5522
+Avg Inference per Sample (ms),0.2793
+Batch Inference Time (s),0.3069
+Model File Size (MB),0.341
+Total Parameters,26124.0
+Trainable Parameters,26124.0

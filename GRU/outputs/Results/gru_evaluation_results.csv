@@ -1,0 +1,2 @@
+Model,Test Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1 (%),Total Parameters,Training Time (s),Epochs Trained
+GRU,81.85,70.53,63.72,63.89,15340,3139.66,50
